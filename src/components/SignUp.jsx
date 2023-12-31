@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export default class SignUp extends Component {
   render() {
     return (
       <div className="sign-up">
-        <div className="row vh-100">
+        <div className="row vh-100 m-0">
           <div className="col-7 d-flex flex-column justify-content-center align-items-center text-center vh-100">
             <div className="sign-up-form-container">
               <div className="sign-up-form-title">
@@ -50,13 +51,15 @@ export default class SignUp extends Component {
               ></input>
             </div>
             <div className="sign-up-button">
-              <button
-                type="button"
-                className="btn bg-blue-500 text-white"
-                style={{ width: "400px" }}
-              >
-                Continue
-              </button>
+              <NavLink className="nav-link" to="create_account">
+                <button
+                  type="button"
+                  className="btn bg-blue-500 text-white"
+                  style={{ width: "400px" }}
+                >
+                  Continue
+                </button>
+              </NavLink>
             </div>
             <div className="sign-up-term-and-policy pt-4 pb-28">
               <h5>By proceeding, you agree to the</h5>

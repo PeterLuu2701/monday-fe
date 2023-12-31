@@ -1,0 +1,12 @@
+.create{
+    .create-form-container{
+        position: relative;
+        .create-continue-button{
+            position: absolute;
+                bottom: -10;
+                right: 0;
+                margin-bottom: 20px;
+                margin-right: 20px;
+        }
+    }
+}
