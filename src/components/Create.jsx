@@ -7,7 +7,7 @@ export default class Create extends Component {
       <div className="create">
         <div className="row vh-100 m-0">
           <div className="col-7 d-flex flex-column vh-100">
-            <div className="create-form-container pl-20 pt-20 vh-100">
+            <div className="create-form-container pl-20 pt-20 vh-100 position-relative">
               <div className="create-form-monday-logo">
                 <img
                   src="https://cdn.monday.com/images/logos/logo-full-big.png"
@@ -57,8 +57,8 @@ export default class Create extends Component {
                 </div>
               </form>
 
-              <div className="create-continue-button pt-20">
-                <NavLink className="nav-link" to="create_account">
+              <div className="create-continue-button pt-20 position-absolute bottom-10 right-10">
+                <NavLink className="nav-link" to="/invitation">
                   <button
                     type="button"
                     className="btn bg-blue-500 text-white"
