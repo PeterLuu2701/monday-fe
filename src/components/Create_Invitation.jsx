@@ -16,8 +16,8 @@ export default class Create_Invitation extends Component {
   render() {
     return (
       <div className="create-invitation">
-        <div className="row vh-100 m-0">
-          <div className="col-7 d-flex flex-column vh-100">
+        <div className="row m-0">
+          <div className="col-md-7 d-flex flex-column vh-100">
             <div className="create-invitation-form-container pl-20 pt-20 vh-100 position-relative">
               <div className="create-invitation-form-monday-logo">
                 <img
@@ -387,23 +387,20 @@ export default class Create_Invitation extends Component {
                 )}
               </form>
 
-              <div className="create-invitation-continue-button pt-20 position-absolute bottom-10 right-10">
-                <NavLink className="nav-link" to="create_account">
+              <div className="create-invitation-continue-button pt-md-20 position-absolute bottom-10 right-10">
+                <NavLink className="nav-link" to="/survey">
                   <button
                     type="button"
                     className="btn bg-blue-500 text-white"
                     style={{ width: "150px" }}
                   >
-                    Continue <i class="fa-solid fa-greater-than pl-4"></i>
+                    Continue <i className="fa-solid fa-greater-than pl-4"></i>
                   </button>
                 </NavLink>
               </div>
             </div>
           </div>
-          <div
-            className="col-5 p-0"
-            style={{ height: "100vh", overflow: "hidden" }}
-          >
+          <div className="col-md-5 p-0">
             <img
               src="https://dapulse-res.cloudinary.com/image/upload/monday_platform/signup/signup-right-side-assets-new-flow/what-brings-you-here-today.png"
               alt=""

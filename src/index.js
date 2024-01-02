@@ -16,6 +16,7 @@ import { createBrowserHistory } from 'history';
 import SignUp from './components/SignUp';
 import Create from './components/Create';
 import Create_Invitation from './components/Create_Invitation';
+import Survey from './components/Survey';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,6 +30,7 @@ root.render(
           <Route index element={<SignUp/>} />
           <Route path='create_account' element={<Create/>} />
           <Route path='invitation' element={<Create_Invitation/>}/>
+          <Route path='survey' element={<Survey/>}/>
       </Routes>
       </HistoryRouter>
     </Provider>
