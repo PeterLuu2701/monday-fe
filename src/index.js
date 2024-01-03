@@ -17,6 +17,7 @@ import SignUp from './components/SignUp';
 import Create from './components/Create';
 import Create_Invitation from './components/Create_Invitation';
 import Survey from './components/Survey';
+import Invitation from './components/Invitation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -29,8 +30,9 @@ root.render(
       <Routes>
           <Route index element={<SignUp/>} />
           <Route path='create_account' element={<Create/>} />
-          <Route path='invitation' element={<Create_Invitation/>}/>
+          <Route path='create_invitation' element={<Create_Invitation/>}/>
           <Route path='survey' element={<Survey/>}/>
+          <Route path='invitation' element={<Invitation/>}/>
       </Routes>
       </HistoryRouter>
     </Provider>

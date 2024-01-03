@@ -58,7 +58,7 @@ export default class Create extends Component {
               </form>
 
               <div className="create-continue-button pt-20 position-absolute bottom-10 right-10">
-                <NavLink className="nav-link" to="/invitation">
+                <NavLink className="nav-link" to="/create_invitation">
                   <button
                     type="button"
                     className="btn bg-blue-500 text-white"

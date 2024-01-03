@@ -181,7 +181,7 @@ export default class Survey extends Component {
               </form>
 
               <div className="create-continue-button pt-md-20 position-absolute bottom-10 left-10">
-                <NavLink className="nav-link" to="/invitation">
+                <NavLink className="nav-link" to="/create_invitation">
                   <button
                     type="button"
                     className="btn bg-gray-500 text-white"
