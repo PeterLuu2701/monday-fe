@@ -118,7 +118,7 @@ export default class Invitation extends Component {
                 </NavLink>
               </div>
               <div className="create-continue-button pt-md-20 position-absolute bottom-10 right-10">
-                <NavLink className="nav-link" to="/invitation">
+                <NavLink className="nav-link" to="/create_board">
                   <button
                     type="button"
                     className="btn bg-gray-300 text-white"
